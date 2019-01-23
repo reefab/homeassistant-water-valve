@@ -1,12 +1,12 @@
-# Automatic water shut off valve using Home Assistant
+# DIY Automatic water shut off valve using Home Assistant
 
 Video demonstration:
 
 [![](http://img.youtube.com/vi/Bhpk5eZIy3k/0.jpg)](http://www.youtube.com/watch?v=Bhpk5eZIy3k "Demonstration")
 
-After having flooded my downstairs neighbours, I added some [Xiaomi Aquara Water sensor](https://www.gearbest.com/home-smart-improvements/pp_668897.html?wid=1527929) to get some early warning in case of leaks. They've already proven useful but an alarm cannot do anything to stop a leak in progress by itself.
+After having flooded my downstairs neighbors, I added some [Xiaomi Aquara Water sensor](https://www.gearbest.com/home-smart-improvements/pp_668897.html?wid=1527929) to get some early warning in case of leaks. They've already proven useful but an alarm cannot do anything to stop a leak in progress by itself.
 
-So I put together simple to automaticaly shut the water off when a leak is detected.
+So I put together something simple to automatically shut the water off when a leak is detected.
 
 **STATUS**: not installed yet or tested in real world conditions.
 
@@ -16,7 +16,7 @@ So I put together simple to automaticaly shut the water off when a leak is detec
 * [Sonoff Basic](https://amzn.to/2S0Skka)
 * [SPDT Relay](https://www.sparkfun.com/products/100)
 * A [Home Assistant](https://github.com/home-assistant/home-assistant) installation with a MQTT server.
-* Some water leak detector compatible with HA, I've used the previously mentionned Xiaomi sensors, but other will probably work just as well.
+* Some water leak detector compatible with HA, I've used the previously mentioned Xiaomi sensors, but other will probably work just as well.
 
 ## Principle of Operation
 
@@ -32,7 +32,7 @@ They use a SPST-NO relay, and we need a SPDT relay. Fortunately, the fix is simp
 
 ![Replace relay](tombstone.jpg)
 
-I've chosen to tombstone the new relay. The coil pins are just bent and inserted in the previous holes.
+I've chosen to tombstone the new relay. It does have the disavantage of not being able to reuse the original enclosure as it doesn't fit vertically anymore. The coil pins are just bent and inserted in the previous holes.
 The common pin is tied to the Line input.
 The NO pin goes to the brown (close) wire of the valve.
 The NC pin goes to the blue (open) wire of the valve.
