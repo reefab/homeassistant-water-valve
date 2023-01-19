@@ -6,14 +6,14 @@
 
 [Youtube link](http://www.youtube.com/watch?v=Bhpk5eZIy3k "Demonstration")
 
-After having flooded my downstairs neighbors, I added some [Xiaomi Aquara Water sensor](https://www.gearbest.com/home-smart-improvements/pp_668897.html?wid=1527929) to get some early warning in case of leaks. They've already proven useful but an alarm cannot do anything to stop a leak in progress by itself.
+After having flooded my downstairs neighbors, I added some [Xiaomi Aquara Water sensor](https://www.aqara.com/us/water_leak_sensor.html) to get some early warning in case of leaks. They've already proven useful but an alarm cannot do anything to stop a leak in progress by itself.
 
 So I put together something simple to automatically shut the water off when a leak is detected.
 
 ## Bill of materials
 
 * [Motorized Ball valve](https://amzn.to/2CDWZPb) The model will depend on your tubing diameter.
-* [Sonoff Basic](https://amzn.to/2S0Skka) or [Zigbee equivalent](https://zigbee.blakadder.com/Ksentry_KS-SM001.html)
+* [Sonoff Basic](https://sonoff.tech/product/diy-smart-switches/basicr2/) or [Zigbee equivalent](https://zigbee.blakadder.com/Ksentry_KS-SM001.html)
 * [SPDT Relay](https://www.sparkfun.com/products/100)
 * A [Home Assistant](https://github.com/home-assistant/home-assistant) installation with a MQTT server.
 * Some water leak detector compatible with HA, I've used the previously mentioned Xiaomi sensors, but other will probably work just as well.
