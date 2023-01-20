@@ -2,7 +2,7 @@
 
 ## Video demonstration:
 
-![Demonstration](https://user-images.githubusercontent.com/873778/213583359-ff5d8895-a603-48ef-a42b-5318c465ce0f.mov)
+https://user-images.githubusercontent.com/873778/213752910-0a473d91-8d50-45cc-84c2-f14997bfa0bf.mp4
 
 [Youtube link](http://www.youtube.com/watch?v=Bhpk5eZIy3k "Demonstration")
 
